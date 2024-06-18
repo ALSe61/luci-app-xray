@@ -19,8 +19,8 @@ jobs:
       matrix:
         include:
           - arch: ramips
-            sdk_url_path: https://downloads.openwrt.org/snapshots/targets/ramips
-            sdk_name: -sdk-ramips_
+            sdk_url_path: https://downloads.openwrt.org/releases/23.05.3/targets/ramips/mt7621/
+            sdk_name: -sdk-23.05.3-ramips-mt7621_
 
     env:
       SDK_URL_PATH: ${{ matrix.sdk_url_path }}
