@@ -18,7 +18,7 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - arch: ramips
+          - arch: mipsel
             sdk_url_path: https://downloads.openwrt.org/releases/23.05.3/targets/ramips/mt7621/
             sdk_name: -sdk-23.05.3-ramips-mt7621_
 
