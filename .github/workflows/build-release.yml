@@ -19,8 +19,8 @@ jobs:
       matrix:
         include:
           - arch: mediatek
-            sdk_url_path: https://downloads.openwrt.org/releases/24.10.0-rc2/targets/mediatek
-            sdk_name: -sdk-24.10.0-rc2-mediatek_
+            sdk_url_path: https://downloads.openwrt.org/releases/24.10.0-rc2/targets/mediatek-filogic
+            sdk_name: -sdk-24.10.0-rc2-mediatek-filogic
 
     env:
       SDK_URL_PATH: ${{ matrix.sdk_url_path }}
